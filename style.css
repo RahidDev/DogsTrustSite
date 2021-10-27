@@ -1,0 +1,24 @@
+body{background-color: cadetblue;}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.IDCard{
+    /*display: flex;*/
+    height: 300px; width: 400px;
+    background-color: #23395B;
+    /*justify-content: space-between;*/
+    color: #ECE5F0;
+}
+.dogName{
+    text-align: center;
+    margin: auto; 
+}
+img{
+    height: 100px;
+    padding: auto;
+}
+button{
+    width: 120px;
+    height: 30px;
+}
