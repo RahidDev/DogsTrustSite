@@ -1,7 +1,9 @@
 body{background-color: cadetblue;}
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .IDCard{
     /*display: flex;*/
@@ -16,9 +18,13 @@ body{background-color: cadetblue;}
 }
 img{
     height: 100px;
-    padding: auto;
+    padding-left: 20px;
+}
+.dogInfo{
+    padding-left: 20px;
 }
 button{
     width: 120px;
     height: 30px;
+    margin-left: 20px;
 }
