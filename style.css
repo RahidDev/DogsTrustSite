@@ -11,10 +11,11 @@ body{background-color: cadetblue;}
     background-color: #23395B;
     /*justify-content: space-between;*/
     color: #ECE5F0;
+    margin-bottom: 5px;
 }
 .dogName{
     text-align: center;
-    margin: auto; 
+    margin: 5px; 
 }
 img{
     height: 100px;
@@ -27,4 +28,5 @@ button{
     width: 120px;
     height: 30px;
     margin-left: 20px;
+    margin-top: 20px;
 }
