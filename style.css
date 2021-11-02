@@ -1,9 +1,26 @@
-body{background-color: cadetblue;}
+body{
+    background-color: cadetblue;
+}
 .container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #23395B;
+    color: white;
+    width: 400px;
+}
+.dropzone{
+    width: auto;
+    height: 100px;
+    border: 2px dashed lightgray;
 }
 .idCard{
     /*display: flex;*/
@@ -23,6 +40,11 @@ img{
 }
 .dogInfo{
     padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.likeCounter{
+    padding: 20px;
 }
 button{
     width: 120px;
